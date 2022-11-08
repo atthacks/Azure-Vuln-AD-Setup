@@ -9,7 +9,7 @@ Import-Module ADDSDeployment
 
 $ErrorActionPreference = "Continue"
 $Output_Logs = "C:\Users\Public\powershell_output.txt"
-Start-Transcript -Path $Output_Logs
+Start-Transcript -Path $Output_Logs -Append
 
 Add-WindowsFeature RSAT-Role-Tools
 IEX((new-object net.webclient).downloadstring("https://raw.githubusercontent.com/wazehell/vulnerable-AD/master/vulnad.ps1"));
