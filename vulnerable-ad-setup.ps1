@@ -1,14 +1,12 @@
 param(
     [Parameter()]
-    [string]$DAAccount,
-    [Parameter()]
     [string]$DomainName,
     [Parameter()]
     [string]$UsersLimit
 )
 
 $ErrorActionPreference = "Continue"
-$Output_Logs = "C:\Users\{0}\Desktop\powershell_output.txt" -f $DAAccount
+$Output_Logs = "C:\Users\Public\powershell_output.txt"
 Start-Transcript -Path $Output_Logs
 
 Add-WindowsFeature RSAT-Role-Tools
