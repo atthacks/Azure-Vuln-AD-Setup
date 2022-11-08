@@ -5,6 +5,8 @@ param(
     [string]$UsersLimit
 )
 
+Import-Module ADDSDeployment
+
 $ErrorActionPreference = "Continue"
 $Output_Logs = "C:\Users\Public\powershell_output.txt"
 Start-Transcript -Path $Output_Logs
