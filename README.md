@@ -4,7 +4,7 @@
 
 All the binaries/scripts/code of this should be used for authorized penetration testing and/or educational purposes only. Any misuse of this software will not be the responsibility of the author or of any other collaborator. Use it at your own risk. Use it on your own network and/or with the network owner's permission.
 
-Please also be aware that this script downloads the latest version of https://github.com/WazeHell/vulnerable-AD and executes to setup the vulnerable domain. I advise to review this script yourself before using my script.
+Please also be aware that this script downloads the latest version of https://github.com/WazeHell/vulnerable-AD and executes to setup the vulnerable domain. I advise to **review this script yourself before using my script**.
 
 ## Description
 Using the "Run Powershell" artifact in Azure DevTestLabs, this will allow you to quickly **create purpose built vulnerable active directory** environment.
